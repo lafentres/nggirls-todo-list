@@ -29,7 +29,7 @@ export class ListManagerComponent implements OnInit {
 
   // Custom methods
   addItem(title: string) {
-    this.todoList.push({ title });
+    this.todoListService.addItem({ title });
   }
 
 }
